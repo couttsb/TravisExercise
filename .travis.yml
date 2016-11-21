@@ -10,6 +10,6 @@ addons:
   apt:
     packages:
       - oracle-java8-installer
-      script:
+      script: JUnit Demo.java
   - jdk_switcher use oraclejdk8
   - # do stuff with Java 8
